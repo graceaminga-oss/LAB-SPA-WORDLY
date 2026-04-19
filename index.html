@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordly SPA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Wordly Dictionary</h1>
+
+  <!-- SEARCH FORM -->
+  <form id="search-form">
+    <input 
+      type="text" 
+      id="word-input" 
+      placeholder="Enter a word..."
+    >
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- ERROR MESSAGE -->
+  <p id="error-message"></p>
+
+  <!-- RESULTS -->
+  <div id="result">
+    <h2 id="word"></h2>
+    <p id="phonetic"></p>
+    <p id="definition"></p>
+    <p id="example"></p>
+    <p id="synonyms"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

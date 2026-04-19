@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Title */
+h1 {
+  color: #333;
+}
+
+/* Form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Input field */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: green;
+}
+
+/* Result box */
+#result {
+  background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Error message */
+#error-message {
+  color: red;
+  font-weight: bold;
+}
+
+/* Simple fade-in animation */
+#result {
+  animation: fadeIn 0.5s;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
