@@ -35,6 +35,7 @@ I used JavaScript to make the page interactive:
 Added a form event listener
 Used preventDefault() so the page does not reload
 Got the value the user types in the input
+
 Step 4: Fetch API
 
 I used the Fetch API to get data from:
@@ -44,6 +45,7 @@ https://api.dictionaryapi.dev/
 Used fetch() to get the word data
 Used async/await to handle the request
 Converted the response to JSON
+
 Step 5: DOM Manipulation
 
 After getting the data, I displayed it on the page:
