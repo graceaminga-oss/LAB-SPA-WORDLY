@@ -66,7 +66,7 @@ API errors
 
 I used try/catch to make sure the app does not crash.
 
-Step 9: Version Control (Git & GitHub)
+Step 7: Version Control (Git & GitHub)
 
 Step 8: Deployment (Vercel)
 
